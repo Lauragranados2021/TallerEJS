@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('./templates/ header.ejs')%>
+    <script>
+  function editing() {
+    var valueId = document.getElementById('idInv').value;
+  const nombre = document.getElementById("nombre");
+  const marca = document.getElementById("marca");
+  const cantidad = document.getElementById("cantidad");
+  const costo = document.getElementById("costo");
+
+    "<%components.forEach(t=>{%>"
+    var aux = "<%= t.id %>";
+    if (aux == valueId) {
+      nombre.value = "<%= t.nombre %>";
+      marca.value = "<%= t.marca %>";
+      cantidad.value = "<%= t.cantidad %>";
+      costo.value = "<%= t.costo %>";
+    }
+    "<%})%>"
+    return valueId;
+  }
+</script>
+  <body>
+    <%-include('./templates/navBar.ejs')%>
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Id</label>
+            <select name="idINV" id="idInv" class="form-control" onchange="editing()">
+                <option disabled selected style="display:none;">¡Seleccione el id a editar!</option>
+                <%components.forEach(t=>{%>
+                  <option value=<%=t.id%>><%=t.id%>%>
+                  </option>
+                  <%})%>
+              </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" />
+          
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Marca</label>
+          <input
+            type="text"
+            class="form-control"
+            id="marca"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Cantidad</label>
+          <input
+            type="number"
+            class="form-control"
+            id="cantidad"
+      
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Costo</label>
+          <input type="number" class="form-control" id="costo" />
+        </div>
+        
+        <div class="col-12">
+          <button type="button" class="btn btn-warning" id="edit">Editar</button>
+        </div>
+      </form>
+    </div>
+    <footer><%-include('./templates/footer.ejs')%></footer>
+  </body>
+  <script src="editar.js"></script>
+</html>

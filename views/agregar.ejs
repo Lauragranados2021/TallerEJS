@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%-include('./templates/ header.ejs')%>
+  <body>
+    <%-include('./templates/navBar.ejs')%>
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Id</label>
+          <input type="number" class="form-control" id="id" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Marca</label>
+          <input
+            type="text"
+            class="form-control"
+            id="marca"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Cantidad</label>
+          <input
+            type="number"
+            class="form-control"
+            id="cantidad"
+      
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Costo</label>
+          <input type="number" class="form-control" id="costo" />
+        </div>
+        
+        <div class="col-12">
+          <button type="button" class="btn btn-primary" id="addInventario">Agregrar</button>
+        </div>
+      </form>
+    </div>
+    <footer><%-include('./templates/footer.ejs')%></footer>
+  </body>
+  <script src="script.js"></script>
+</html>

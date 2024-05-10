@@ -1,0 +1,114 @@
+[
+  {
+    "id": "01",
+    "nombre": "esfero",
+    "marca": "BIG",
+    "cantidad": "1238",
+    "costo": "700"
+  },
+  {
+    "id": "02",
+    "nombre": "escritorio",
+    "marca": "home",
+    "cantidad": "10",
+    "costo": "340800"
+  },
+  {
+    "id": "03",
+    "nombre": "sillas",
+    "marca": "office",
+    "cantidad": "56",
+    "costo": "803450"
+  },
+  {
+    "id": "04",
+    "nombre": "computadores",
+    "marca": "HP",
+    "cantidad": "50",
+    "costo": "2300000"
+  },
+  {
+    "id": "05",
+    "nombre": "calendarios",
+    "marca": "Gabriel",
+    "cantidad": "39",
+    "costo": "23000"
+  },
+  {
+    "id": "06",
+    "nombre": "impresoras",
+    "marca": "Epson",
+    "cantidad": "15",
+    "costo": "2589000"
+  },
+  {
+    "id": "07",
+    "nombre": "resma de hojas",
+    "marca": "reprograf",
+    "cantidad": "41",
+    "costo": "42000"
+  },
+  {
+    "id": "08",
+    "nombre": "tijeras",
+    "marca": "Norma",
+    "cantidad": "8",
+    "costo": "1400"
+  },
+  {
+    "id": "09",
+    "nombre": "engrapadora",
+    "marca": "triton",
+    "cantidad": "120",
+    "costo": "11500"
+  },
+  {
+    "id": "10",
+    "nombre": "abre huecos",
+    "marca": "offi-esco",
+    "cantidad": "72",
+    "costo": "12500"
+  },
+  {
+    "id": "11",
+    "nombre": "folders",
+    "marca": "norma",
+    "cantidad": "13",
+    "costo": "23435"
+  },
+  {
+    "id": "12",
+    "nombre": "porta esferos",
+    "marca": "gremlin",
+    "cantidad": "87",
+    "costo": "5300"
+  },
+  {
+    "id": "13",
+    "nombre": "cafetera",
+    "marca": "KALLEY",
+    "cantidad": "1",
+    "costo": "99000"
+  },
+  {
+    "id": "14",
+    "nombre": "marcadores",
+    "marca": "Pelikan",
+    "cantidad": "12",
+    "costo": "35567"
+  },
+  {
+    "id": "15",
+    "nombre": "video beam",
+    "marca": "Epson",
+    "cantidad": "5",
+    "costo": "2122044"
+  },
+  {
+    "id": "16",
+    "nombre": "cinta ",
+    "marca": "Pelikan",
+    "cantidad": "45",
+    "costo": "2324"
+  }
+]
