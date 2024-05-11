@@ -110,5 +110,12 @@
     "marca": "Pelikan",
     "cantidad": "45",
     "costo": "2324"
+  },
+  {
+    "id": "17",
+    "nombre": "lampara",
+    "marca": "bacara",
+    "cantidad": "23",
+    "costo": "90000"
   }
 ]

@@ -22,6 +22,6 @@ document.getElementById("edit").addEventListener("click", () => {
     body: JSON.stringify(data1),
   })
     .then((data) => data.json())
-    .then((data) => console.log(data))
+    .then((data) => alert("objeto editado"))
     .catch((err) => console.log(err.message));
 });
